@@ -19,7 +19,7 @@ namespace Common
             if (        proposedXPosition < 0 
                      || proposedXPosition > InitialParams.TableWidth - 1
                      || proposedYPosition < 0
-                     || proposedXPosition > InitialParams.TableLength - 1)
+                     || proposedYPosition > InitialParams.TableLength - 1)
             {
                 isValid = false;
             }
