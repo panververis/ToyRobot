@@ -45,16 +45,22 @@ namespace LittleSpeedyToyRobot.LittleSpeedy.Interface
         void Move(int? steps = 1);
 
         /// <summary>
-        /// Speedy turns towards the provided as input direction.
-        /// Optional parameter with a defaut value of one denotes the number of 90 degree rotations he is performing
-        /// </summary>
-        void Rotate(RotationDirection? rotationDirection, int? times = 1);
-
-        /// <summary>
         /// Speedy reports hsi status. If you care about his feelings as well, you will also enquire about his mood.
         /// Default value of that option is set to false.
         /// </summary>
         string Report(bool? addMoodReport = false);
+
+        /// <summary>
+        /// Speedy turns right.
+        /// Optional parameter with a defaut value of one denotes the number of 90 degree rotations he is performing
+        /// </summary>
+        void Right(int? times = 1);
+
+        /// <summary>
+        /// Speedy turns left.
+        /// Optional parameter with a defaut value of one denotes the number of 90 degree rotations he is performing
+        /// </summary>
+        void Left(int? times = 1);
 
         #endregion
     }

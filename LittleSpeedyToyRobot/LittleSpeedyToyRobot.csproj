@@ -7,7 +7,10 @@
 
   <ItemGroup>
     <Folder Include="Images\" />
-    <Folder Include="LittleSpeedy\Concrete\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Common\Common.csproj" />
   </ItemGroup>
 
 </Project>
