@@ -7,7 +7,6 @@
 
   <ItemGroup>
     <Folder Include="Images\" />
-    <Folder Include="LittleSpeedy\Interface\" />
     <Folder Include="LittleSpeedy\Concrete\" />
   </ItemGroup>
 

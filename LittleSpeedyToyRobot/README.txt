@@ -1,4 +1,5 @@
 ﻿This is a small .Net Core app simulating the movements of Little Speedy, the Toy Robot!
+Choosing .Net Core 2.1 is a sensible option as it is declared as LTS by Microsoft.
 
 His mission on this world is to move around on a table without falling over. 
 (although he is pretty sure that lots of humans will actively try to make him fall over said table, Lemmings-style)
