@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace Common
+﻿namespace Common
 {
     /// <summary>
     /// Public static class holding the Tech Test's initial parameters (table width and length, for example)
